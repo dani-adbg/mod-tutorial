@@ -33,9 +33,7 @@ import org.slf4j.Logger;
 @Mod(Mod_tutorial.MOD_ID)
 public class Mod_tutorial {
 
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "mod_tutorial";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     
     public Mod_tutorial() {
