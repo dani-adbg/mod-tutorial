@@ -15,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import org.dani_adbg.modtutorial.block.ModBlocks;
 import org.dani_adbg.modtutorial.item.ModCreativeModTabs;
 import org.dani_adbg.modtutorial.item.ModItems;
 import org.slf4j.Logger;
@@ -33,6 +34,8 @@ public class Mod_tutorial {
         ModCreativeModTabs.register(modEventBus);
         // LLAMA LA FUNCIÓN PARA REGISTRAR LOS ITEMS
         ModItems.register(modEventBus);
+        // LLAMA LA FUNCIÓN PARA REGISTRAR LOS BLOQUES
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -54,6 +57,10 @@ public class Mod_tutorial {
         // AGREGA EL ITEM A LA PESTAÑA DE INGREDIENTES
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SILVER);
+        }
+        // AGREGA EL ITEM A LA PESTAÑA DE BLOQUES
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.SILVER_BLOCK);
         }
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call

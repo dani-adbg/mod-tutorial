@@ -1,6 +1,6 @@
 {
   "item.mod_tutorial.silver": "Silver",
-  // "item.mod_tutorial.platinum": "Platinum",
+  "block.mod_tutorial.silver_block": "Silver Block",
 
   "creativetab.modtutorial_tab": "Tutorial Tab"
 }

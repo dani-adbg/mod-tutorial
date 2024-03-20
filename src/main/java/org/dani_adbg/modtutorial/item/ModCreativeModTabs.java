@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import org.dani_adbg.modtutorial.Mod_tutorial;
+import org.dani_adbg.modtutorial.block.ModBlocks;
 
 public class ModCreativeModTabs {
   // OBTIENE LA LISTA DE TABS DEL INVENTARIO DE CREATIVO Y CREA UNO NUEVO
@@ -21,6 +22,8 @@ public class ModCreativeModTabs {
                   .displayItems((pParameters, pOutput) -> {
                     pOutput.accept(ModItems.SILVER.get());
                     // pOutput.accept(ModItems.PLATINUM.get());
+
+                    pOutput.accept((ModBlocks.SILVER_BLOCK.get()));
                   })
                   .build()
   );
