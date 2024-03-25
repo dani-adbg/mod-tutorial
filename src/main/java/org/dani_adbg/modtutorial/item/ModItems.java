@@ -17,6 +17,9 @@ public class ModItems {
   public static final RegistryObject<Item> SILVER = ITEMS.register("silver",
           () -> new Item(new Item.Properties()));
 
+  public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget",
+          () -> new Item(new Item.Properties()));
+
   // CREA LA FUNCIÓN REGISTER
   public static void register(IEventBus eventBus) {
     ITEMS.register(eventBus);

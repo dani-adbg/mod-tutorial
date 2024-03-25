@@ -29,7 +29,7 @@ public class Mod_tutorial {
     
     public Mod_tutorial() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
+    
         // LLAMA LA FUNCIÓN PARA REGISTRAR LA NUEVA TAB
         ModCreativeModTabs.register(modEventBus);
         // LLAMA LA FUNCIÓN PARA REGISTRAR LOS ITEMS
@@ -57,6 +57,7 @@ public class Mod_tutorial {
         // AGREGA EL ITEM A LA PESTAÑA DE INGREDIENTES
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SILVER);
+            event.accept(ModItems.SILVER_NUGGET);
         }
         // AGREGA EL ITEM A LA PESTAÑA DE BLOQUES
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

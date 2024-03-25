@@ -21,6 +21,7 @@ public class ModCreativeModTabs {
                   .title(Component.translatable("creativetab.modtutorial_tab"))
                   .displayItems((pParameters, pOutput) -> {
                     pOutput.accept(ModItems.SILVER.get());
+                    pOutput.accept(ModItems.SILVER_NUGGET.get());
                     // pOutput.accept(ModItems.PLATINUM.get());
 
                     pOutput.accept((ModBlocks.SILVER_BLOCK.get()));

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mod_tutorial:silver"
+    }
+  },
+  "result": {
+    "item": "mod_tutorial:silver_block"
+  }
+}

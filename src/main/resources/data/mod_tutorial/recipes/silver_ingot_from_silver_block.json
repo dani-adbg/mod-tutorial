@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mod_tutorial:silver_block"
+    }
+  ],
+  "result": {
+    "item": "mod_tutorial:silver",
+    "count": 8
+  }
+}
