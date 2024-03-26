@@ -25,6 +25,7 @@ public class ModCreativeModTabs {
                     // pOutput.accept(ModItems.PLATINUM.get());
 
                     pOutput.accept((ModBlocks.SILVER_BLOCK.get()));
+                    pOutput.accept((ModBlocks.SILVER_ORE.get()));
                   })
                   .build()
   );

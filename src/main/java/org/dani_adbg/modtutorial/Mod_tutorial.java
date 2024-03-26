@@ -62,6 +62,7 @@ public class Mod_tutorial {
         // AGREGA EL ITEM A LA PESTAÑA DE BLOQUES
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SILVER_BLOCK);
+            event.accept(ModBlocks.SILVER_ORE);
         }
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call
