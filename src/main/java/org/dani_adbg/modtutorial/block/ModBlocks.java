@@ -25,6 +25,8 @@ public class ModBlocks {
 
   public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
           () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+  public static final RegistryObject<Block> NETHER_SILVER_ORE = registerBlock("nether_silver_ore",
+          () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
 
   public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
     RegistryObject<T> toReturn = BLOCKS.register(name, block);

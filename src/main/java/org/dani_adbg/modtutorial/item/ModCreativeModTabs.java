@@ -26,6 +26,7 @@ public class ModCreativeModTabs {
 
                     pOutput.accept((ModBlocks.SILVER_BLOCK.get()));
                     pOutput.accept((ModBlocks.SILVER_ORE.get()));
+                    pOutput.accept((ModBlocks.NETHER_SILVER_ORE.get()));
                   })
                   .build()
   );

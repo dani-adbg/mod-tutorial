@@ -3,6 +3,7 @@
   "item.mod_tutorial.silver_nugget": "Silver Nugget",
   "block.mod_tutorial.silver_block": "Silver Block",
   "block.mod_tutorial.silver_ore": "Silver Ore",
+  "block.mod_tutorial.nether_silver_ore":  "Nether Silver Ore",
 
   "creativetab.modtutorial_tab": "Tutorial Tab"
 }
